@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.administrator.xidianshipu.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/caomeibuding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/caomeibuding" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/caomeibuding"
+                android:layout_gravity="bottom"
+                android:text="原料:\n\t\t\t\t\t\t牛奶，草莓，QQ糖，蜂蜜，葡萄干。\n草莓牛奶布丁的制作方法：\n\t\t\t\t\t\t1、首先把一包牛奶放入容器，放一点糖。微波炉1-2分钟。也可以用奶锅烧开。\n\t\t\t\t\t\t2、放入大概1-2包QQ小包装`~我用的是一包感觉不太够。微波加热20秒~取出搅拌之，让QQ糖融化。\n\t\t\t\t\t\t3.然后把做好的布丁液室温冷却。\n\t\t\t\t\t\t4.然后封上保鲜膜，盖上盖子放到冰箱冷藏~注意不要传味个人感觉整个过程要3小时以上，在2小时左右时，可以插入草莓、葡萄干，然后继续冷藏~如果还没有成果冻状，可以稍微放冰冻层冰下，注意时间不要太长时间可以灵活掌握。\n\t\t\t\t\t\t5.取出，泠上蜂蜜就可以了。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

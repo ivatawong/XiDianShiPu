@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.administrator.xidianshipu.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/tiantianquan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tiantianquan" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tiantianquan"
+                android:layout_gravity="bottom"
+                android:text="原料:\n\t\t\t\t\t\t奶油40g，砂糖70g，鸡蛋1个，牛奶80cc，低筋面粉180g，发酵粉1又1/2小匙，可可粉40g，油炸用油适量。\n巧克力甜甜圈的制作方法：\n\t\t\t\t\t\t1.奶油以打蛋器打至松软后加入砂糖继续打匀，而后再加入一个鸡蛋与牛奶 混合均匀。\n\t\t\t\t\t\t2.低筋面粉与发酵粉及可可粉全部混合在一起并以筛子均匀筛过后加入材料\n\t\t\t\t\t\t3.中搅拌均匀。\n\t\t\t\t\t\t4.混合好的面团以保鲜膜包紧置于冰箱冷藏库中，让面团醒约20分钟。\n\t\t\t\t\t\t5.将发好的面团分成12等分，并做成圆圈状，然后用中温色拉油将圈两面炸熟。将筷子插入面团中，若未沾上面糊，即表示里面已经炸熟了。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

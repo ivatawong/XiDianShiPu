@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.xidianshipu.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/xidian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/xidian" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xidian"
+                android:text="\t\t\t\t\t\t西点是我们日常生活中一种很常见的食品，深受人民群众的喜爱，今天就给大家介绍几款热门的西式糕点，希望大家能喜欢。"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/zhuguli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:onClick="zhuguli"
+                android:text="朱古力冰班戟" />
+
+            <Button
+                android:id="@+id/xiaweiyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zhuguli"
+                android:layout_centerHorizontal="true"
+                android:onClick="xiaweiyi"
+                android:text="夏威夷咸蛋糕" />
+
+            <Button
+                android:id="@+id/bulangni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xiaweiyi"
+                android:layout_centerHorizontal="true"
+                android:onClick="bulangni"
+                android:text="巧克力布朗尼" />
+
+            <Button
+                android:id="@+id/tiantianquan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bulangni"
+                android:layout_centerHorizontal="true"
+                android:onClick="tiantianquan"
+                android:text="巧克力甜甜圈" />
+
+            <Button
+                android:id="@+id/caomeibuding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tiantianquan"
+                android:layout_centerHorizontal="true"
+                android:onClick="caomeibuding"
+                android:text="草莓牛奶布丁" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

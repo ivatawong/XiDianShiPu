@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.administrator.xidianshipu.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/bulangni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/bulangni" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bulangni"
+                android:layout_gravity="bottom"
+                android:text="原料：\n\t\t\t\t\t\t无盐奶油150g、细砂糖100g 、黑巧克力150g、鸡蛋3个、低筋面粉150g、无糖可可粉20g、泡打粉1/2t 、小苏打粉1/4t 、碎核桃仁50g、20×20cm方形烤模。\n巧克力布朗尼的制作方法：\n\t\t\t\t\t\t1、巧克力隔热水加热融化成巧克力液备用；\n\t\t\t\t\t\t2、面粉、可可粉、泡打粉、小苏打粉一起过筛备用，烤箱预热；\n\t\t\t\t\t\t3、无盐奶油加细砂糖打发，分次加入鸡蛋液搅打均匀，一定要慢慢加，每次充分搅打均匀后再加入下一次的，否则容易造成油水分离的现象（完成时奶油和鸡蛋的混合物约膨大2倍）；\n\t\t\t\t\t\t4、把稍微冷却的巧克力液倒入1中，搅打均匀。\n\t\t\t\t\t\t5、分三次加入过筛后的粉类，用橡皮刮刀从底向上轻轻翻拌均匀即可。（不要搅拌过久，以免出筋,影响到膨胀度）；\n\t\t\t\t\t\t6、将面糊倒入烤模中，刮平表面，均匀撒上碎核桃仁，入烤箱烘烤，175度，上下火，30分钟左右；\n\t\t\t\t\t\t7、按着个人喜好切成可入口的小块。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

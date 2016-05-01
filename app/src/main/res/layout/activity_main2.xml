@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.administrator.xidianshipu.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/xiaweiyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/xiaweiyi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/xiaweiyi"
+                android:layout_gravity="bottom"
+                android:text="原料：\n\t\t\t\t\t\t麵糊：全蛋 178公克、细砂糖 178公克、低筋麵粉 152公克、沙拉油 43公克\n\t\t\t\t\t\t内馅：火腿 2片、罐头凤梨 2片、香菜梗 2支\n\t\t\t\t\t\t调味料：白胡椒 1小匙、盐 1小匙、柠檬汁 2小匙\n夏威夷咸蛋糕的制作方法：\n\t\t\t\t\t\t1.将蒸锅加水以大火烧开；准备一个蒸盘，并用刀子将蒸盘底部划破几道，再放入一张白报纸，备用。\n\t\t\t\t\t\t2.将火腿与凤梨切小丁，香菜梗切末，与所有调味料一起拌匀成馅料备用。\n\t\t\t\t\t\t3.将所有麵糊材料製作成基础麵糊，备用。\n\t\t\t\t\t\t4.将作法3的麵糊倒入作法1的的蒸盘里，放入蒸锅中以大火蒸5分钟后取出，在麵糊表面撒上作法2的馅料，重新放入蒸锅里，转中火蒸20分钟即可。\n基础麵糊作法：\n\t\t\t\t\t\t1.将全蛋打入搅拌盆中，搅拌至呈大泡沫状。\n\t\t\t\t\t\t2.将作法1的蛋液加入细砂糖，搅拌成浓稠均匀的蛋糊。\n\t\t\t\t\t\t3.将低筋麵粉过筛两次，加入作法2的蛋糊搅拌至光亮无颗粒状的麵糊。\n\t\t\t\t\t\t4.取部份作法3的麵糊先跟沙拉油搅拌均匀后，再全数倒回剩馀的麵糊里拌匀即成。"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
